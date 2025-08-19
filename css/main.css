@@ -1,8 +1,78 @@
 /* =======================================================
     MOBILE STYLES
    ======================================================= */
+header,
+footer {
+   width: 100%;
+}
 
-  
+body {
+   background-image: url("/images/pattern-background-mobile.svg");
+   background-repeat: no-repeat;
+   font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+   border-radius: 30px;
+}
+
+.content-wrapper {
+   padding: 1.5625rem;
+   text-align: center;
+}
+
+.order-summary {
+   padding: 0 25px;
+}
+
+h1 {
+   line-height: 135%;
+   font-size: 1.75rem;
+   font-weight: 800;
+}
+
+.order-summary p {
+   font-size: 0.9375rem;
+   line-height: 165%;
+   font-weight: 500;
+   color: #717fa6;
+}
+
+.plan-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 1fr;
+   padding: 1.5625rem;
+   gap: 5px;
+}
+
+.plan-container img {
+   justify-self: center;
+}
+
+.plan-title {
+   color: black;
+   margin: 0;
+}
+
+.plan-cost {
+   color: #717fa6;
+   grid-column: 2;
+   margin: 0;
+   font-weight: 500;
+}
+
+.change {
+   color: #1f2e55;
+   grid-column: 3;
+   grid-row: 1;
+   text-decoration: underline;
+}
+
+.payment-container {
+   outline: 1px dotted black;
+}
+
 /* =======================================================
     TABLET STYLES
    ======================================================= */
