@@ -1,19 +1,21 @@
 /* =======================================================
     MOBILE STYLES
    ======================================================= */
-header,
-footer {
-   width: 100%;
-}
-
 body {
-   background-image: url("/images/pattern-background-mobile.svg");
-   background-repeat: no-repeat;
+   /* background-image: ; */
+   /* background-repeat: ; */
    font-family: "Red Hat Display", sans-serif;
+   background-color: #d6e1ff;
 }
 
 main {
    border-radius: 30px;
+   outline: 3px solid purple;
+   background-color: white;
+}
+
+.hero-wrapper img {
+   border-radius: 20px 20px 0px 0px;
 }
 
 .content-wrapper {
@@ -22,7 +24,7 @@ main {
 }
 
 .order-summary {
-   padding: 0 25px;
+   padding: 0 1.5625rem;
 }
 
 h1 {
@@ -36,14 +38,17 @@ h1 {
    line-height: 165%;
    font-weight: 500;
    color: #717fa6;
+   padding-bottom: 0.9375rem;
 }
 
 .plan-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: 1fr;
-   padding: 1.5625rem;
+   padding: 15px;
    gap: 5px;
+   background-color: #f7f9ff;
+   border-radius: 20px;
 }
 
 .plan-container img {
@@ -53,6 +58,9 @@ h1 {
 .plan-title {
    color: black;
    margin: 0;
+   font-size: 15px;
+   line-height: 165%;
+   font-weight: 900;
 }
 
 .plan-cost {
@@ -67,10 +75,30 @@ h1 {
    grid-column: 3;
    grid-row: 1;
    text-decoration: underline;
+   cursor: pointer;
+   font-size: 15px;
+   line-height: 165%;
+   font-weight: 900;
 }
 
-.payment-container {
-   outline: 1px dotted black;
+.payment-proceed {
+   background-color: #382ae1;
+   padding: 15px;
+   border-radius: 15px;
+   color: white;
+   font-size: 15px;
+   line-height: 165%;
+   font-weight: 900;
+   box-shadow: 10px 10px 10px lightgrey;
+   margin-bottom: 15px;
+   cursor: pointer;
+}
+
+.payment-cancel {
+   color: #717fa6;
+   font-size: 15px;
+   line-height: 165%;
+   font-weight: 900;
 }
 
 /* =======================================================
