@@ -2,8 +2,6 @@
     MOBILE STYLES
    ======================================================= */
 body {
-   /* background-image: ; */
-   /* background-repeat: ; */
    font-family: "Red Hat Display", sans-serif;
    background-color: #d6e1ff;
 }
@@ -104,7 +102,18 @@ h1 {
 /* =======================================================
     TABLET STYLES
    ======================================================= */
-@media (min-width: 768px) {}
+@media (min-width: 500px) {
+
+   .hero-image {
+      display: grid;
+   }
+
+   .hero-wrapper img {
+      justify-self: center;
+      object-fit: fill;
+      width: 100%;
+   }
+}
 
 /* =======================================================
    DESKTOP STYLES 
