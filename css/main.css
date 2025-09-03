@@ -72,11 +72,18 @@ h1 {
    color: #1f2e55;
    grid-column: 3;
    grid-row: 1;
-   text-decoration: underline;
-   cursor: pointer;
    font-size: 15px;
    line-height: 165%;
    font-weight: 900;
+}
+
+.activate-change {
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.activate-change:hover {
+   color: #382ae1;
 }
 
 .payment-proceed {
@@ -89,7 +96,15 @@ h1 {
    font-weight: 900;
    box-shadow: 10px 10px 10px lightgrey;
    margin-bottom: 15px;
+}
+
+.activate-proceed {
    cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.activate-proceed:hover {
+   color: white;
 }
 
 .payment-cancel {
@@ -98,6 +113,16 @@ h1 {
    line-height: 165%;
    font-weight: 900;
 }
+
+.activate-cancel {
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.activate-cancel:hover {
+   color: black;
+}
+
 
 /* =======================================================
     TABLET STYLES
