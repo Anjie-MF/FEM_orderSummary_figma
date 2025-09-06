@@ -98,6 +98,10 @@ h1 {
    margin-bottom: 15px;
 }
 
+.payment-proceed:hover {
+   background-color: #766cf1;
+}
+
 .activate-proceed {
    cursor: pointer;
    transition: background-color 0.3s ease;
