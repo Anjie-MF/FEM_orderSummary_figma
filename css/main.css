@@ -11,6 +11,83 @@ main {
    background-color: white;
 }
 
+body.party {
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
+   animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+.switch-container {
+   text-align: center;
+   padding-bottom: 2em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.switch-container p {
+   padding: 0 1em;
+   text-transform: uppercase;
+}
+
+.switch-container input {
+   height: 0;
+   width: 0;
+   opacity: 0;
+}
+
+.switch {
+   cursor: pointer;
+   position: relative;
+   display: inline-block;
+   width: 70px;
+   height: 34px;
+   background-color: gray;
+   border-radius: 34px;
+}
+
+.ball {
+   position: absolute;
+   height: 26px;
+   width: 26px;
+   left: 4px;
+   bottom: 4px;
+   border-radius: 50%;
+   background-color: white;
+   transition: transfrom 0.2s ease-out;
+}
+
+.ball.move-right {
+   -webkit-transform: translateX(34px);
+   -ms-transform: translateX(34px);
+   transform: translateX(34px);
+}
+
+.visuallyhidden {
+   border: 0;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+}
+
 .hero-wrapper img {
    border-radius: 20px 20px 0px 0px;
    width: 100%;
@@ -96,6 +173,25 @@ h1 {
    font-weight: 900;
    box-shadow: 10px 10px 10px lightgrey;
    margin-bottom: 15px;
+
+}
+
+#pulse:hover {
+   animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+   0% {
+      transform: scale(1);
+   }
+
+   50% {
+      transform: scale(1.1);
+   }
+
+   100% {
+      transform: scale(1);
+   }
 }
 
 .payment-proceed:hover {
@@ -126,7 +222,6 @@ h1 {
 .activate-cancel:hover {
    color: black;
 }
-
 
 /* =======================================================
     TABLET STYLES

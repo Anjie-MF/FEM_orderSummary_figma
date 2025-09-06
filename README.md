@@ -90,8 +90,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Pulse Effect](https://www.geeksforgeeks.org/css/css-pulse-animation/) - DIY pulse effect for button
+- [Alison Quaglia](https://www.sliderrevolution.com/resources/css-animated-background/) - Created without JavaScript, this background creates a stunning effect using pure CSS3 animations.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

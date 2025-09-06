@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <script src="/js/script.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
@@ -17,6 +18,15 @@
 
 <body>
   <main>
+    <header class="switch-container">
+      <p>Normal</p>
+      <label for="toggle" class="switch">
+        <span class="visuallyhidden">Normal/Party toggle</span>
+        <div class="ball"></div>
+      </label>
+      <input id="toggle" name="toggle" type="checkbox" />
+      <p>Party</p>
+    </header>
     <div class="hero-wrapper">
       <div class="hero-image">
         <img src="/images/illustration-hero.svg" alt="a graphic of a person listening to music with headphones">
@@ -37,12 +47,11 @@
         <p class="change"><span class="activate-change">Change</span></p>
       </div>
       <div class="payment-container">
-        <p class="payment-proceed"><span class="activate-proceed">Proceed to Payment</span></p>
+        <p class="payment-proceed" id="pulse"><span class="activate-proceed">Proceed to Payment</span></p>
         <p class="payment-cancel"><span class="activate-cancel">Cancel Order</span></p>
       </div>
     </section>
   </main>
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://www.frontendmentor.io/profile/Anjie-MF">Anjie-MF</a>.
