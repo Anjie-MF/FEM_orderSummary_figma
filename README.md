@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/Anjie-MF/FEM_orderSummary_figma)
-- Live Site URL: [View Live Site](https://your-live-site-url.com)
+- Live Site URL: [View Live Site](https://anjie-mf.github.io/FEM_orderSummary_figma/)
 
 ## My process
 
