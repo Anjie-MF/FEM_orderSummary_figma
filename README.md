@@ -13,8 +13,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
+- 
 ## Overview
 
 ### The challenge
@@ -107,9 +106,11 @@ SIMPLIFIED CODE WITH CLASSLIGHT.TOGGLE VS IF/ELSE STATEMENTS
 
 ### Useful resources
 
-- [Pulse Effect](https://www.geeksforgeeks.org/css/css-pulse-animation/) - how to write the html and css for pulse effect 
+- [Pulse Effect](https://www.geeksforgeeks.org/css/css-pulse-animation/) - how to write the HTML and CSS for pulse effect 
 - [Alison Quaglia](https://www.sliderrevolution.com/resources/css-animated-background/) - Created without JavaScript, this gradient background creates a stunning effect using pure CSS3 animations
 
 ## Author
 
 - Frontend Mentor - [@Anjie-MF](https://www.frontendmentor.io/profile/Anjie-MF)
+- Dev.to - [anjelica_mf](https://dev.to/anjie_mf)
+- Linkedin - [Anjelica May](www.linkedin.com/in/anjiemay23)
